@@ -1,0 +1,18 @@
+.Message {
+  display: flex;
+  justify-content: baseline;
+  height: 10px;
+  font-size:calc(30px + 1.4vw);
+}
+
+.Message p {
+  display: block;
+}
+
+.green{
+  color: #10be53;
+}
+
+.red {
+  color: coral;
+}

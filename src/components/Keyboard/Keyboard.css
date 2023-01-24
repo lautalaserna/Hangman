@@ -1,0 +1,6 @@
+.Keyboard {
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(calc(40px + 2vw), 1fr));
+  gap: .5rem;
+}

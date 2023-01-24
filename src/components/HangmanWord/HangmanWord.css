@@ -1,0 +1,27 @@
+.HangmanWord {
+  display: flex;
+  gap: .25em;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.letter-space {
+  border-bottom: .1em solid #eee;
+  min-width: 40px;
+  width: 5vw;
+}
+
+.letter {
+  display: block;
+  text-align: center;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
